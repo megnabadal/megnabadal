@@ -23,6 +23,12 @@ export const Route = createFileRoute("/")({
 
 const projects = [
   {
+    title: "AI Infrastructure Generator",
+    description:
+      "Auto-generates Docker, Kubernetes, Helm, Terraform & CI/CD configs from any repository using AI. Streamlines DevOps workflows by turning source code into production-ready infrastructure.",
+    tags: ["FastAPI", "Ollama/Claude API", "Jinja2", "Pydantic v2", "Next.js", "Prometheus", "Grafana"],
+  },
+  {
     title: "F1 Telemetry Dashboard",
     description:
       "Python-based concept dashboard to analyze Formula 1 telemetry data and car performance parameters. Designed program logic, data handling, and a console-based UI for visualizing live race statistics.",
